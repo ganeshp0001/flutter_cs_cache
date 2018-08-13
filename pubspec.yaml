@@ -1,11 +1,11 @@
 name: flutter_cs_cache
 description: Flutter package to provide simple and extendible cache feature to be used in flutter applications.
-version: 0.0.1
+version: 0.0.2
 author: Ganesh Patil <ganeshp0001@gmail.com>
 homepage: https://github.com/ganeshp0001/flutter_cs_cache/
 
 environment:
-  sdk: ">=1.19.0 <2.0.0"
+  sdk: '>=2.0.0-dev.30.0 <3.0.0'
 
 dependencies:
   flutter:
