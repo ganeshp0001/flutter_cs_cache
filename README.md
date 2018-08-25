@@ -5,24 +5,36 @@ Flutter package to provide simple and extendible cache feature to be used in flu
 ## Getting Started
 Import CsCache as 
 
-```import 'package:flutter_cs_cache/flutter_cs_cache.dart';```
+``` dart
+import 'package:flutter_cs_cache/flutter_cs_cache.dart';
+```
 
 Once imported make sure you have created CsCache instance ahead of time, before using getKey or setKey functions
 
 ### To set a key value
+``` dart
 csCache.setKey(key: keyName, value: valueString, expireOn: expiryTimeInMillisecondsSinceEpoch);
+```
 
 ### To get a key value
+``` dart
 csCache.getKey(key: keyName);
+```
 
 ### To remove a key value
+``` dart
 csCache.removeKey(key: keyName);
+```
 
 ### To purge all keys which might have been expired
+``` dart
 csCache.purgeCache();
+```
 
 ### To clear all cache entrie (expired and non-expired)
+``` dart
 csCache.clearCache();
+```
 
 
 ## example code
