@@ -27,7 +27,7 @@ csCache.clearCache();
 
 ## example code
 
-```
+``` dart
 class _MyHomePageState extends State<MyHomePage> {
   String cacheMessage = "";
   final CsCache cache = new CsCache();
